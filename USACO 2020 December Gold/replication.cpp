@@ -82,9 +82,7 @@ void solve() {
 		}
 	}
 
-	for(int i=n*2; i>=0; --i) {
-		vector<ii> lst;
-
+	for(int i=n*2; i>0; --i) {
 		for(int j=0; j<tmp[i].size(); ++j) {
 			ii now = tmp[i][j];
 			mark[now.fi][now.se] = 1;
